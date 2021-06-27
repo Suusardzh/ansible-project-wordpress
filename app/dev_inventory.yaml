@@ -1,0 +1,15 @@
+all: 
+  hosts:
+
+  children:
+    application:    #app group
+      hosts:
+        app_server1:   #server1
+          ansible_host: 10.116.0.6
+          ansible_ssh_user: ansible
+
+    database:
+      hosts:
+        db_server1:
+          ansible_host: 10.116.0.7
+          ansible_ssh_user: root
