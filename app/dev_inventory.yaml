@@ -12,4 +12,4 @@ all:
       hosts:
         db_server1:
           ansible_host: 10.116.0.7
-          ansible_ssh_user: root
+          ansible_ssh_user: ansible
