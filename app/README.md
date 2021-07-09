@@ -19,8 +19,8 @@ Storage: 10 GB or more
 
 ### Directory Structure
 
-```
-.
+
+
 ├── dev_inventory.yaml
 ├── playbooks
 │   ├── add_ansible_user.yaml
@@ -33,8 +33,7 @@ Storage: 10 GB or more
     ├── database_vars.yaml
     ├── ping_vars.yaml
     └── webserver_vars.yaml
-    
-```
+
 
 # Packages
 # webserver:
