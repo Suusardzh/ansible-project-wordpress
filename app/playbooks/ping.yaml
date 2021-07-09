@@ -7,3 +7,5 @@
   tasks: 
     - name: Ping servers
       ping:
+
+    
