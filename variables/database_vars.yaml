@@ -16,3 +16,4 @@ wp_db: wpdb
 # Task "Create WordPress User"
 wp_user: wpuser
 wpuser_password: test123456789
+webserver_ip: 10.116.0.6
